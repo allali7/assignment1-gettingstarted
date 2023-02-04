@@ -16,7 +16,7 @@ def welcome_assignment_answers(question):
     elif question == "Is it possible to decode a message without a key? - Yes/No":
         answer = "Yes"
     elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
-        answer = "No"
+        answer = "Yes"
     elif question == "What is the SHA256 hashing value to the following message: 'NYU Computer Networking' - Use SHA256 hash generator and use the answer in your code":
         message = "NYU Computer Networking".encode()
         hashMessage = hashlib.sha256(message)
